@@ -4,6 +4,7 @@ Conversions between different formats in Python
 ## Summary
 
 |From ↓ To →|charstr|bytes|hexstr|binstr|int|
+|:..........|:......|:....|:.....|:.....|:..|
 |S charstr|bytes(S, encoding=’utf-8’)|bytes(S, encoding=’utf-8’).hex()|f"{int(bytes(S, encoding='utf-8').hex(), base=16):b}"|int(bytes(S, encoding='utf-8').hex(), base=16)|
 
 BY bytes	BY.decode()		BY.hex()	f'{int(BY.hex(), base=16):b}'	int(BY.hex(), base=16)
